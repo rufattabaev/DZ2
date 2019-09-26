@@ -13,7 +13,7 @@ public class Main {
         double lengthOfRoll = scanner.nextDouble();
         System.out.println("Укажите высоту комнаты");
         double roomHeight = scanner.nextDouble();
-        System.out.println("Нужно приобрести " + Math.ceil(WallpaperCalculator.calculateNumberOfRolls(roomLength, roomWidth, wallpaperWidth, lengthOfRoll, roomHeight)) + " рулона(-ов) обоев");
+        System.out.println("Нужно приобрести " + (int) Math.ceil(WallpaperCalculator.calculateNumberOfRolls(roomLength, roomWidth, wallpaperWidth, lengthOfRoll, roomHeight)) + " рулона(-ов) обоев");
 
     }
 }
